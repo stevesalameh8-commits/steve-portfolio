@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Steve Salameh — content creator and digital storyteller exploring AI, short-form content and creative ideas.">
+<title>Steve Salameh | Content Creator</title>
+<style>
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { background:#0d1117; color:#fff; font-family:Arial,sans-serif; margin:0; }
+a { color:inherit; }
+.hero,.about,.ai-projects,.short-form,.storytelling,.contact { max-width:800px; margin:0 auto; padding-left:40px; padding-right:40px; }
+.hero { padding-top:80px; padding-bottom:80px; }
+.hero .eyebrow { color:#b5bdc9; letter-spacing:1.5px; font-size:14px; font-weight:700; }
+.hero h1 { font-size:60px; margin:18px 0 10px; }
+.hero h2,.section-title { font-size:36px; color:#9da7ff; margin-bottom:16px; }
+.hero h2 { font-size:32px; }
+.hero p,.section-intro,.about p { color:#b5bdc9; line-height:1.7; }
+.hero p { max-width:650px; }
+.primary-btn { display:inline-block; background:#7c83ff; color:#fff; text-decoration:none; padding:14px 24px; border-radius:8px; font-weight:600; margin-top:10px; transition:.25s ease; }
+.primary-btn:hover { transform:translateY(-3px); background:#8b92ff; }
+.about { padding-top:30px; padding-bottom:30px; }
+.about h2 { font-size:36px; color:#9da7ff; margin-bottom:20px; }
+.about p { font-size:18px; max-width:650px; }
+.work { max-width:1000px; margin:0 auto; padding:30px 40px 70px; }
+.work>h2 { font-size:36px; color:#9da7ff; margin-bottom:35px; }
+.work-cards { display:flex; gap:20px; }
+.card { background:#151922; border:1px solid #2b3140; border-radius:16px; padding:30px; flex:1; text-decoration:none; color:inherit; transition:transform .3s ease,border-color .3s ease; }
+.card:hover { transform:translateY(-8px); border-color:#7c83ff; }
+.card h3 { font-size:21px; margin-top:0; color:#fff; }
+.card p { color:#b5bdc9; line-height:1.6; }
+.icon { font-size:26px; color:#9da7ff; margin-bottom:14px; }
+.ai-projects,.short-form,.storytelling { padding-top:70px; padding-bottom:40px; }
+.section-intro { margin-bottom:30px; }
+.project-box { background:#161b24; border:1px solid #2b3240; border-radius:14px; padding:28px; margin-bottom:18px; transition:.3s ease; }
+.project-box:hover { transform:translateY(-5px); border-color:#7c83ff; }
+.project-box h3 { margin-top:0; margin-bottom:10px; }
+.project-box p { color:#b7becb; line-height:1.6; margin-bottom:0; }
+.project-tags { display:flex; gap:10px; flex-wrap:wrap; margin-top:20px; }
+.project-tags span { background:rgba(124,131,255,.12); color:#9da7ff; border:1px solid #7c83ff; padding:7px 12px; border-radius:20px; font-size:13px; font-weight:600; }
+.project-status { display:inline-block; margin-top:18px; color:#9da7ff; font-size:14px; font-weight:700; }
+.contact { padding-top:60px; padding-bottom:80px; }
+.contact h2 { font-size:36px; margin-bottom:14px; }
+.contact p { color:#b5bdc9; line-height:1.6; }
+.contact-links { display:flex; gap:14px; flex-wrap:wrap; margin-top:24px; }
+.contact-links a { display:inline-block; padding:12px 20px; background:#747cff; color:#fff; text-decoration:none; border-radius:8px; font-weight:600; transition:.25s ease; }
+.contact-links a:hover { transform:translateY(-3px); background:#8b92ff; }
+footer { max-width:800px; margin:0 auto; padding:0 40px 35px; color:#7f8794; font-size:13px; }
+@media (max-width:900px) {
+  .hero,.about,.work,.ai-projects,.short-form,.storytelling,.contact,footer { max-width:100%; padding-left:30px; padding-right:30px; }
+  .hero h1 { font-size:48px; }
+  .hero h2 { font-size:28px; }
+  .work-cards { flex-direction:column; gap:15px; }
+  .card { padding:24px; }
+}
+@media (max-width:520px) {
+  .hero { padding-top:60px; padding-bottom:60px; }
+  .hero h1 { font-size:40px; }
+  .section-title,.about h2,.work>h2,.contact h2 { font-size:30px; }
+}
+</style>
+</head>
+<body>
+<section class="hero">
+  <p class="eyebrow">CONTENT CREATOR &amp; DIGITAL STORYTELLER</p>
+  <h1>Hi, I'm Steve Salameh.</h1>
+  <h2>Ideas. Stories. Content that connects.</h2>
+  <p>Exploring AI, creativity, travel and short-form content through stories and ideas.</p>
+  <a class="primary-btn" href="#work">View My Work</a>
+</section>
+
+<section class="about">
+  <h2>About Me</h2>
+  <p>I'm Steve, a content creator exploring AI, creativity, travel and digital storytelling. I create ideas and stories designed to connect, inspire and make people think.</p>
+</section>
+
+<section class="work" id="work">
+  <h2>My Work</h2>
+  <div class="work-cards">
+    <a href="#ai-projects" class="card"><div class="icon">✦</div><h3>AI &amp; Creative Projects</h3><p>Exploring ideas and creating digital experiences with AI.</p></a>
+    <a href="#short-form" class="card"><div class="icon">✦</div><h3>Short-Form Content</h3><p>Creative videos and concepts for TikTok, Reels and Shorts.</p></a>
+    <a href="#storytelling" class="card"><div class="icon">✦</div><h3>Digital Storytelling</h3><p>Stories and ideas designed to connect, inspire and make people think.</p></a>
+  </div>
+</section>
+
+<section class="ai-projects" id="ai-projects">
+  <h2 class="section-title">AI &amp; Creative Projects</h2>
+  <p class="section-intro">A collection of experiments and creative projects where I explore how AI can turn ideas into digital experiences.</p>
+  <div class="project-box">
+    <h3>Personal Portfolio Website</h3>
+    <p>A personal portfolio website designed and built from scratch while exploring AI-assisted web development and creative design.</p>
+    <div class="project-tags"><span>HTML</span><span>CSS</span><span>AI-Assisted</span></div>
+  </div>
+</section>
+
+<section class="short-form" id="short-form">
+  <h2 class="section-title">Short-Form Content</h2>
+  <p class="section-intro">Short videos and visual concepts created for fast, engaging storytelling across TikTok, Reels and Shorts.</p>
+  <div class="project-box">
+    <h3>Creative Short-Form Experiments</h3>
+    <p>Developing short-form concepts that combine strong hooks, visual pacing and simple storytelling. New published work will be added here as the portfolio grows.</p>
+    <div class="project-tags"><span>Canva</span><span>Short-Form</span><span>Creative Direction</span></div>
+    <span class="project-status">More work coming soon</span>
+  </div>
+</section>
+
+<section class="storytelling" id="storytelling">
+  <h2 class="section-title">Digital Storytelling</h2>
+  <p class="section-intro">Ideas built around curiosity, emotion and perspective — designed to make people stop, think and connect.</p>
+  <div class="project-box">
+    <h3>Story &amp; Concept Development</h3>
+    <p>Exploring original story ideas, hooks and creative concepts for digital platforms, with a focus on clear messages and memorable experiences.</p>
+    <div class="project-tags"><span>Storytelling</span><span>Concepts</span><span>Creative Writing</span></div>
+    <span class="project-status">New stories in development</span>
+  </div>
+</section>
+
+<section class="contact">
+  <h2>Let's Connect</h2>
+  <p>Have an idea, a project, or just want to connect? I'd love to hear from you.</p>
+  <div class="contact-links">
+    <a href="mailto:salamehstev@gmail.com">Email Me</a>
+    <a href="https://www.instagram.com/salamehsteve/" target="_blank" rel="noopener noreferrer">Instagram</a>
+    <a href="https://www.tiktok.com/@Steve.Salameh2" target="_blank" rel="noopener noreferrer">TikTok</a>
+  </div>
+</section>
+<footer>© 2026 Steve Salameh. Built with curiosity and creativity.</footer>
+</body>
+</html>
